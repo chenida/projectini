@@ -167,7 +167,7 @@ def get_category_insights(df, selected_category=None):
 
 # Main dashboard
 def main():
-    st.title("💰 Dashboard Prediksi Keuangan Personal")
+    st.title("💰 Dashboard Prediksi pengeluaran gen Z")
     st.markdown("### Analisis & Prediksi Cash Flow dengan LSTM/GRU")
     
     # Load data
