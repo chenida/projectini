@@ -296,7 +296,7 @@ with col2:
     st.plotly_chart(fig2, use_container_width=True)
 
 # Prediksi manual
-st.subheader("🔍 Coba Prediksi Manual dengan LSTM")
+st.subheader("🔍Prediksi Manual dengan LSTM")
 user_input = st.text_input("Masukkan deskripsi transaksi:", "beli bensin shell")
 if user_input:
     # Preprocess input
